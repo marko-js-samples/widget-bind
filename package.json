@@ -1,0 +1,26 @@
+{
+  "name": "widget-bind",
+  "version": "0.0.0",
+  "description": "marko-widgets sample app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marko-js-samples/widget-bind"
+  },
+  "author": "Patrick Steele-idem <pnidem@gmail.com>",
+  "license": "ISC",
+  "homepage": "https://github.com/marko-js-samples/widget-bind",
+  "dependencies": {
+    "browser-refresh-taglib": "^1.0.0",
+    "express": "^4.4.1",
+    "jquery": "^2.1.1",
+    "lasso": "^1.10.1",
+    "lasso-marko": "^2.0.4",
+    "marko": "^2.7.8",
+    "marko-widgets": "^4.3.1",
+    "serve-static": "^1.2.1"
+  }
+}
