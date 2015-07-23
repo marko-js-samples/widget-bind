@@ -1,6 +1,6 @@
 {
     "dependencies": [
         "require: marko-widgets",
-        "require: ../../components/app"
+        "require: ./widget"
     ]
 }

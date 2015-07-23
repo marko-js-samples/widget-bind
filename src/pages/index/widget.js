@@ -1,9 +1,4 @@
-module.exports = require('marko-widgets').defineComponent({
-    template: require('./template.marko'),
-    getTemplateData: function() {
-        return {
-        };
-    },
+module.exports = require('marko-widgets').defineWidget({
     init: function() {
         addEventListener('click', function() {
             this.addText('You clicked it!');
